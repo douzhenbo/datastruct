@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1539778704 source:f:\project\suanfa\text.c
+	<stdio.h>
+	"text.h"
+
+1539782035 source:f:\project\suanfa\main.c
+	<stdio.h>
+	<stdlib.h>
+	"text.h"
+
+1539780836 f:\project\suanfa\text.h
+
