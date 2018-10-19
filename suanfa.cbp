@@ -34,6 +34,10 @@
 		<Unit filename="main.c">
 			<Option compilerVar="CC" />
 		</Unit>
+		<Unit filename="shed.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="shed.h" />
 		<Unit filename="text.c">
 			<Option compilerVar="CC" />
 		</Unit>

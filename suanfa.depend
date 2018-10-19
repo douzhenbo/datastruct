@@ -10,3 +10,21 @@
 
 1539780836 f:\project\suanfa\text.h
 
+1539783738 source:f:\project\datastruct\text.c
+	<stdio.h>
+	"text.h"
+
+1539933092 f:\project\datastruct\text.h
+
+1539933392 source:f:\project\datastruct\main.c
+	<stdio.h>
+	<stdlib.h>
+	"text.h"
+	"shed.h"
+
+1539933092 f:\project\datastruct\shed.h
+
+1539933383 source:f:\project\datastruct\shed.c
+	<stdio.h>
+	"shed.h"
+
