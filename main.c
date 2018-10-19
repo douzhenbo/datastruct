@@ -2,24 +2,22 @@
 #include <stdlib.h>
 #include "text.h"
 #include "shed.h"
+#include "queue.h"
 
 
 
 int main()
 {
-    shed dou;
-    init_shed(&dou);
-    push(&dou,3);
-    shedempty(&dou);
-    push(&dou,4);
-    push(&dou,5);
-    shedempty(&dou);
-    int x;
-    pop(&dou,&x);
-    printf("删除的元素为%d\n",x);
-    shedempty(&dou);
-    get_top(&dou,&x);
-    printf("栈顶元素为%d\n",x);
+    int x,y=0;
+    queue dou;
+    init_queue(&dou);
+    push_queue(&dou,5);
+    get_queue(&dou,&x);
+    printf("%d\n",x);
+    delete_queue(&dou);
+    get_queue(&dou,&y);
+    printf("%d\n",y);
+    return 0;
 
 }
 

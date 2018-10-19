@@ -16,15 +16,22 @@
 
 1539933092 f:\project\datastruct\text.h
 
-1539933392 source:f:\project\datastruct\main.c
+1539955433 source:f:\project\datastruct\main.c
 	<stdio.h>
 	<stdlib.h>
 	"text.h"
 	"shed.h"
+	"queue.h"
 
 1539933092 f:\project\datastruct\shed.h
 
 1539933383 source:f:\project\datastruct\shed.c
 	<stdio.h>
 	"shed.h"
+
+1539955394 source:f:\project\datastruct\queue.c
+	"stdio.h"
+	"queue.h"
+
+1539955187 f:\project\datastruct\queue.h
 
