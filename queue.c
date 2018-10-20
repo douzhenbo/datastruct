@@ -1,10 +1,13 @@
 #include "stdio.h"
 #include "queue.h"
 
+
 void init_queue(queue *s)
 {
     s->front=s->tail=0;
 }
+
+
 
 
 void push_queue(queue *s,int x)
@@ -15,6 +18,8 @@ void push_queue(queue *s,int x)
         s->tail++;
     }
 }
+
+
 
 int get_queue(queue* s,int *x)
 {
@@ -29,6 +34,8 @@ int get_queue(queue* s,int *x)
         return *x;
     }
 }
+
+
 
 int delete_queue(queue * s)
 {
